@@ -20,10 +20,10 @@ def simulate_battle():
 	c3.weapon = Weapon("Slingshot", 80, 20)
 	c3.using_magic = True
 
-	#print(c3.compute_damage(c1))
-	#print(Character.compute_damage_output)
-	#print(Magician.compute_damage_output)
-	#print(c3.compute_damage_output)
+	print(c3.compute_damage(c1))
+	print(Character.compute_damage_output)
+	print(Magician.compute_damage_output)
+	print(c3.compute_damage_output)
 
 	turns = run_battle(c3, c1)
 	print(f"The battle ended in {turns} turns.")
